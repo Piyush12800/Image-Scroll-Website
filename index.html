@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtualization</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="wrapper">
+
+        <div class="container">
+            <img src="cloud.jpeg" class="background">
+            <!-- <img src="foreground.png" class="foreground"> -->
+            <h1>VIRTUALIZATION</h1>
+        </div>
+
+        <section>
+            <h2 class="secHeading">What is Virtualization</h2> <br>
+
+           
+            
+            <p class="text">
+                Virtualization is the "creation of a virtual (rather than actual) version of something, s
+                uch as a server, a desktop, a storage device, an operating system or network resources".
+<br><br>
+In other words, Virtualization is a technique, which allows to share a single physical instance of a resourc
+e or an application among multiple customers and organizations. It does by assigning a logical name to 
+a physical storage and providing a pointer to that physical resource when demanded.
+            </p>
+
+            <div class="bg bg12">
+                <h2 class="desc" >CONCEPT BEHIND</h2>
+               
+            </div>
+           
+            <p class="text">
+                Creation of a virtual machine over existing operating system and hardware is known as Hardware Virtualization. A Virtual machine provides an environment that is logically separated from the underlying hardware.
+<br><br>
+The machine on which the virtual machine is going to create is known as Host Machine and that virtual machine is referred as a Guest Machine
+            </p>
+
+            <div class="bg bg4" id = "types">
+                <h2 class="desc" >TYPES</h2>
+            </div>
+            <p class="text">
+                <div class="jumps">
+                    <a href="#hardware">Hardware Virtualization.</a>
+                    <br><br><br>
+                    <a href="#os">Operating system Virtualization</a>
+                    <br><br><br>
+                    <a href="#server">Server Virtualization.
+                    </a>
+                    <br><br><br>
+                    <a href="#storage">Storage Virtualization</a><br><br><br><br><br>
+                </div>
+
+            <div class="bg bg6">
+                <h2 class="desc" id="hardware">Hardware Virtualization</h2>
+            </div>
+            <p class="text">
+                When the virtual machine software or virtual machine manager (VMM) is directly installed on the hardware system is known as hardware virtualization.
+                <br><br>
+
+The main job of hypervisor is to control and monitoring the processor, memory and other hardware resources.
+<br><br>
+
+After virtualization of hardware system we can install different operating system on it and run different applications on those OS.
+<br><br>
+<strong>Usage:</strong>
+<br>
+
+
+Hardware virtualization is mainly done for the server platforms, because controlling virtual machines is much easier than controlling a physical server.
+<br><br>
+<a href="#types">Back to Types</a></p>
+
+            <div class="bg bg8">
+                <h2 class="desc" id="os">Operating System Virtualization</h2>
+            </div>
+            <p class="text">
+                When the virtual machine software or virtual machine manager (VMM) is installed on the Host operating system instead of directly on the hardware system is known as operating system virtualization.
+<br><br><strong>Usage:</strong>
+<br>
+
+
+Operating System Virtualization is mainly used for testing the applications on different platforms of OS.
+<br><br> <a href="#types">Back to Types</a></p>
+            <div class="bg bg9">
+                <h2 class="desc" id="server">Server Virtualization</h2>
+            </div>
+            <p class="text">
+                When the virtual machine software or virtual machine manager (VMM) is directly installed on the Server system is known as server virtualization.
+<br><br>
+<strong>Usage:</strong><br>
+                
+                
+                Server virtualization is done because a single physical server can be divided into multiple servers on the demand basis and for balancing the load.
+           <br><br> <a href="#types">Back to Types</a></p>
+            <div class="bg bg10">
+                <h2 class="desc" id="storage">Storage Virtualization</h2>
+            </div>
+            <p class="text">
+                Storage virtualization is the process of grouping the physical storage from multiple network storage devices so that it looks like a single storage device.
+<br><br>
+Storage virtualization is also implemented by using software applications.
+<br><br><strong>Usage:</strong><br>
+Storage virtualization is mainly done for back-up and recovery purposes. <br><br>
+<a href="#types">Back to Types</a>
+</p>
+<div class="bg bg16">
+    <h2 class="desc">Pros and Cons</h2>
+</div>
+<p class="text">
+<strong>Pros:</strong>   
+
+</p>
+<ol class="list">
+<li>Utilization of Hardware Efficiently </li>
+<li>Availability increases with Virtualization</li>
+<li>Disaster Recovery is efficient and easy</li>
+<li>Virtualization saves Energy</li>
+<li>Quick and Easy Set up</li>
+<li>Cloud Migration becomes easy</li>
+</ol>
+<p class="text">
+    <strong>Cons:</strong>   
+    
+    </p>
+    <ol class="list">
+        <li>Data can be at Risk</li>
+        <li>Learning New Infrastructure</li>
+        <li>High Initial Investment </li>
+    </ol>
+            <div class="bg bg11">
+                <h2 class="desc" >Virtualization in cloud computing</h2>
+            </div>
+            <p class="text">
+                Virtualization plays a very important role in the cloud computing technology, normally in the cloud computing, users share the data present in the clouds like application etc, but actually with the help of virtualization users shares the Infrastructure.
+<br><br>
+The main usage of Virtualization Technology is to provide the applications with the standard versions to their cloud users, suppose if the next version of that application is released, then cloud provider has to provide the latest version to their cloud users and practically it is possible because it is more expensive.
+<br><br>
+To overcome this problem we use basically virtualization technology, By using virtualization, all severs and the software application which are required by other cloud providers are maintained by the third party people, and the cloud providers has to pay the money on monthly or annual basis. 
+<br><br></p>
+            <div class="bg bg15">
+                <h2 class="desc">Emulation</h2>
+            </div>
+            <p class="text">
+                In computing, the emulator is a hardware or software that enables one device (named Host) to function like other systems (named Guest). It is a perfect way to execute the hardware and software in any system. Emulation brings greater overhead, but it also has its benefits. It is relatively inexpensive, easily accessible and allows us to run programs that have become redundant in the available system.
+<br><br>
+An emulator changes the CPU instructions required for the architecture and executes it on another architecture successfully. The emulation systems could be accessed remotely by anyone and are very simpler to use. Without affecting the underlying OS, it is an excellent capacity for embedded and OS development. Without considering the host's capabilities, emulation will usually manage the size of the design under test (DUT).
+<br><br></p>
+           
+<div class="bg bg12">
+                <h2 class="desc">Emulation V/S Virtualization</h2>
+            </div>
+            <p class="text">
+                The following are the key differences between emulation and virtualization. 
+            </p>
+            <ol class="list">
+                <li>
+                    The emulation process needs a software bridge, unlike virtualization. Whereas in virtualization, the hardware would be accessed directly.
+                </li>
+                <li>
+                    The major distinction between the virtual machine and the emulator is that the virtual machine directly executes code with various domains in the language of use.
+                </li>
+                <li>
+                    An interpreter is required for basic emulation. This interpreter translates the source code and then translates it to the host system's readable format for further processing.
+                </li>
+                <li>
+                    In an emulator, the guest operating system does not run-on physical hardware. In contrast to virtual machines, emulators are sluggish. Emulators do not depend on the CPU while the VMs uses the CPU.
+                </li>
+                <li>
+                    Virtualization physically places a layer between hardware, unlike emulation, to control and access it. As virtualization allows us access to host resources, it helps in resource sharing between guest machines.
+                </li>
+            </ol> 
+            <div class="bg bg7">
+                <h2 class="desc" >Conclusion</h2>
+            </div>
+            <p class="text">
+                The key similarity between virtualization and emulation is that they are both programs that, one way or another, imitate hardware. Both let's imitate and run a program in one setting that is intended for the other but with different techniques.
+<br><br>
+Mainly Virtualization means, running multiple operating systems on a single machine but sharing all the hardware resources. And it helps us to provide the pool of IT resources so that we can share these IT resources in order get benefits in the business.
+</p>
+            <div class="bg bg14">
+                <h2 class="desc">Resources</h2>
+            </div>
+            <p class="text">
+                <a href="https://learn.microsoft.com/en-us/windows-server/virtualization/virtualization
+                ">Microsoft Virtualization Documentation
+            </a>
+                <br><br>
+<a href="https://www.vmware.com/in/solutions/virtualization.html
+">VMWare
+</a>
+                <br><br>
+<a href="https://www.javatpoint.com/virtualization-in-cloud-computing
+">javaTpoint
+</a>
+                <br><br>
+<a href="https://www.geeksforgeeks.org/virtualization-cloud-computing-types/
+">GeeksforGeeks
+</a>
+                
+
+                 </p>
+            <div class="bg bg13">
+                <h2 class="desc" >Thank You</h2>
+            </div>
+            <p class="text" >
+                This simple Website is created by Piyush Kushwah (0901AM211036) .
+
+                <br><br>
+                <strong>Other Members</strong>
+
+            </p>
+            <ol class="list" >
+                <li>Abi Pateriya (0901AM211003)</li>
+                <li>Atharva Pawar (0901AM211018)</li>
+                <li>Sarthak Mangalmurti (0901AM211051)</li>
+                <li>Vansh Gawra (0901AM211062)</li>
+            </ol>
+        </section>
+
+    </div>
+</body>
+</html>
